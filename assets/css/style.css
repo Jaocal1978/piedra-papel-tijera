@@ -1,0 +1,76 @@
+.card{
+    background-image: url(../img/fondo-pantalla-abstracto-nebulosa-ultra-detallado-4_1562-749.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    color: #ffffff;
+}
+
+
+#Piedra
+{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: solid 4px #ffffff;
+    border-radius: 50%;
+}
+
+#Piedra img
+{
+    width: 50px;
+    height: 40px;
+}
+
+#Papel {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: solid 4px #ffffff;
+    border-radius: 50%;
+}
+
+#Papel img {
+    width: 50px;
+    height: 40px;
+}
+
+#Tijera {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: solid 4px #ffffff;
+    border-radius: 50%;
+}
+
+#Tijera img {
+    width: 50px;
+    height: 40px;
+}
+
+@media (max-width: 1000px) {
+    #img1 {
+        width: 160px;
+        height: 120px;
+    }
+
+    #img2 {
+        width: 160px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+    #img1
+    {
+        width: 120px;
+        height: 100px;
+    }
+
+    #img2 
+    {
+        width: 120px;
+        height: 100px;
+    }
+}
